@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class CartController extends Controller
 {
     public function panier(){
-        echo "Panier";
+        return view('cart');
     }
 }
